@@ -1,0 +1,89 @@
+.big-card {
+    margin-top: 6rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.inputgroup .input {
+    width: 350px;
+    padding: 0rem 3rem;
+}
+
+.inputgroup .input .rad {
+    height: 45;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+}
+
+.inputgroup .input input {
+    height: 5;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+    font-size: .79rem;
+}
+
+.buttt .res {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+    background-color: rgb(247, 77, 77);
+}
+
+.res:hover {
+    background-color: brown;
+}
+
+.inputgroup {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.classbn {
+    margin-top: 2rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 3.5rem;
+}
+
+.classbn .buttt {
+    width: 350px;
+}
+
+.classbn .buttt a {
+    height: 45;
+    width: 32%;
+    align-content: center;
+}
+
+.ok {
+    background-color: rgb(50, 117, 241);
+}
+
+.ok:hover {
+    background-color: rgb(62, 97, 161);
+}
+
+.inputgroup .input textarea {
+    width: 80%;
+    padding: 12px;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: transparent;
+    border: 1px solid #ccc;
+}
